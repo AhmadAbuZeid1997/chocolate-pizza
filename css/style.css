@@ -1,10 +1,12 @@
-
+body{
+    margin: Auto;
+    width:1100;
 .header-content{
     display: inline-block;
 }
 #g-img{
     
-    margin-left: 950px;
+    margin-left: 850px;
     transform: scaleY(50%);
     transform: translateY(-100%);
 }
