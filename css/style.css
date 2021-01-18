@@ -1,10 +1,14 @@
+body{
+    margin: auto;
+    width: 1100px;
+}
 
 .header-content{
     display: inline-block;
 }
 #g-img{
     
-    margin-left: 950px;
+    margin-left: 850px;
     transform: scaleY(50%);
     transform: translateY(-100%);
 }
@@ -22,11 +26,9 @@ padding: 0mm auto;
 #wifi-p{
     margin-left: 20px;
 }
-hr{
-    color: grey;
-    border-style: dashed;
+
     
-}
+
 main h1{
     font-family: Brushstroke, fantasy;;
     margin: 0%;
@@ -58,13 +60,14 @@ main h1{
     margin-bottom: 20px;
 }
 ul{
-    list-style-position: inside;
+    list-style: none;
 }
 #list{
 background-image: url(../images/list-bg.png);
 background-size: cover;
 margin-bottom: 20px;
 box-shadow: 0px 5px 0px 0px rgb(138, 136, 136);
+padding: 5%;
 }
 #list p{
     font-family: Parkavenue, cursive;
@@ -79,4 +82,50 @@ box-shadow: 0px 5px 0px 0px rgb(138, 136, 136);
 .list1{
     display: inline-block;
     margin-left: 10%;
+}
+.comment{
+    display: inline-block;
+}
+#ph1{
+    font-size: x-large;
+    font: bold;
+    margin-bottom: 2%;
+}
+#ph2{
+    color: gray;
+}
+button{
+float: right;
+background-color: rgb(182, 73, 73);
+width: 170px;
+height: 50px;
+color: white;
+margin-right: 0%;
+margin-top: 2%;
+}
+.item8{
+    text-decoration: line-through;
+}
+.item9{
+    text-decoration: line-through;
+}
+footer{
+    text-align: center;
+}
+#repeat{
+    background-image: repeating-linear-gradient(45deg,  transparent 0 2px,gray 2px 4px);
+    height: 5px;
+    
+}
+footer p{
+    color: gray;
+}
+#foot{
+    margin-top: 20px;
+}
+#end{
+    margin-top: 20px;
+}
+#comments{
+    margin-top: 20px;
 }
